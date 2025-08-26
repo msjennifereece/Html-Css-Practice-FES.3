@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <section>
       <nav>
-        <img src="./HTML Practise Assets/FES.svg" alt="" />
+        <img class="logo" src="./HTML Practise Assets/FES.svg" alt="" />
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -16,38 +17,43 @@
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn frontend</h1>
-          <p>
-            Go from being an absolute beginner to pro with a simplified process
-          </p>
+        <div class="row">
+          <div>
+            <h1>Best place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified process
+            </p>
+            <button>Start now</button>
+          </div>
+          <figure>
+            <img src="/HTML Practise Assets/laptop.png" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="/HTML Practise Assets/laptop.png" alt="" />
-        </figure>
       </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-            maiores, veritatis consequuntur libero tempora aliquam sint porro
-            nisi quo asperiores distinctio labore rem ex perferendis dolores?
-            Beatae iure hic accusantium?
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-            maiores, veritatis consequuntur libero tempora aliquam sint porro
-            nisi quo asperiores distinctio labore rem ex perferendis dolores?
-            Beatae iure hic accusantium?
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              maiores, veritatis consequuntur libero tempora aliquam sint porro
+              nisi quo asperiores distinctio labore rem ex perferendis dolores?
+              Beatae iure hic accusantium?
+            </p>
+            <p class="section__description--para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+              maiores, veritatis consequuntur libero tempora aliquam sint porro
+              nisi quo asperiores distinctio labore rem ex perferendis dolores?
+              Beatae iure hic accusantium?
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="/HTML Practise Assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="/HTML Practise Assets/about.jpg" alt="" />
-        </figure>
       </section>
 
       <section id="discord">
