@@ -71,10 +71,15 @@ a {
   font-weight: bold;
 }
 
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
 /* ABOUT */
 
 #about {
-  padding: 48px 0;
   background-color: #f8ffdc;
 }
 
@@ -87,6 +92,7 @@ h2 {
 .section__description {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -113,3 +119,32 @@ img {
 }
 
 /* DISCORD */
+
+#discord {
+  background-color: #cefeff;
+}
+
+/* CONTACT */
+
+#contact {
+  background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 24px;
+  padding: 6px 12px;
+}
+
+input, textarea {
+  font-size: 20px;
+}
+
+/* FOOTER */
